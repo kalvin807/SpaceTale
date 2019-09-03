@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 2ba56062fbfde9642b8502eccedd5602
+  - enabled: 1
+    path: Assets/Scenes/Dialogue.unity
+    guid: 4e27a6fd6bc6a62469f2ca266564e6cb
+  - enabled: 1
+    path: Assets/Scenes/Main1.unity
+    guid: 98674de12cee24047936427b7f7a21fa
+  - enabled: 1
+    path: Assets/Scenes/Dialogue1.unity
+    guid: 78d68a475e326b746bec7a670d4c87f6
+  - enabled: 1
+    path: Assets/Scenes/Main2.unity
+    guid: 484e9f95611ca794fa87563357fe6480
+  - enabled: 1
+    path: Assets/Scenes/Dialogue2.unity
+    guid: 97df1fd171c56bf49984fd79badec703
+  - enabled: 1
+    path: Assets/Scenes/Main3.unity
+    guid: 5d415608a95e2314ca2b5c2927c090d8
+  - enabled: 1
+    path: Assets/Scenes/Dialogue3.unity
+    guid: ed31cea67ec0da1478e293bf7ee2c097
+  - enabled: 1
+    path: Assets/Scenes/Main4.unity
+    guid: 924fa479f91233d4496b3a22f3e2a310
+  - enabled: 1
+    path: Assets/Scenes/BossLevel.unity
+    guid: fd136778f9653a44bab34e58e9c4c6fa
+  - enabled: 1
+    path: Assets/Scenes/Dialogue4.unity
+    guid: 7b8b9b43b6a45d3468da84c2645ee5ba
+  - enabled: 1
+    path: Assets/Scenes/WinGame.unity
+    guid: bbf2a71312fabe247b82e4899600c9df
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 0c1c82164ad0e774e9e3ee58ebc4d18c
+  m_configObjects: {}

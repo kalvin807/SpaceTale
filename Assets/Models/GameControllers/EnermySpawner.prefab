@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &724929362186741953
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 724929362186741966}
+  - component: {fileID: 724929362186741967}
+  - component: {fileID: 4223613389619201869}
+  m_Layer: 0
+  m_Name: EnermySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &724929362186741966
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724929362186741953}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 80, y: 50, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &724929362186741967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724929362186741953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6db224b02ce475840b2edc081ef4ddef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bossPrefab: {fileID: 4186322680330013685, guid: 3ebadc9fdb25fea4980062faa4ec0946,
+    type: 3}
+  finalBossPrefab: {fileID: 613449218705419741, guid: e25d550e5a5b75e4a8ec04a5f116127c,
+    type: 3}
+  enemy1Prefab: {fileID: 3246228398189935446, guid: 13eaf4b27d089ae4d864f79e7da235d4,
+    type: 3}
+  enemy2Prefab: {fileID: 2634048065784498334, guid: b7a20e51c98087b4293d6e5b97e892aa,
+    type: 3}
+  enemy3Prefab: {fileID: 1418521389754318370, guid: 9bb79f446a078cd458084811a5931a4e,
+    type: 3}
+  enemy4Prefab: {fileID: 3415431783609704292, guid: 607885c16b138c14c9a0bf37a576894d,
+    type: 3}
+  enemy5Prefab: {fileID: 6761497256515118091, guid: 06a9f61cc311ba5479a4e0ac650506b8,
+    type: 3}
+  bossHelperPrefab: {fileID: 6889500780765407978, guid: b918e77b9c79fb14799e3cd83219bbc3,
+    type: 3}
+  tracingEmiterPrefab: {fileID: 7902961692119548472, guid: 5864ce205c0407041b6931b1af9a82f6,
+    type: 3}
+--- !u!95 &4223613389619201869
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724929362186741953}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

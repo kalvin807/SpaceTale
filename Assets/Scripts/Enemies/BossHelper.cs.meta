@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 848925d8ffb133a4d82ce520a019d344
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - enemyBulletPrefab1: {fileID: 7680731159837743428, guid: 2ba4eb8203ed3a2438b0eba7530d26c0,
+      type: 3}
+  - tracingBulletPrefab: {fileID: 4315744444939971205, guid: 8df355521905d32418ce74c4dc34cb0f,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
